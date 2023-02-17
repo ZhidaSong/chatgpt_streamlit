@@ -21,5 +21,5 @@ def get_response(prompt):
 user_input = st.empty().text_input(label="请输入你要提问的问题, 输入完成后按回车键提交！")
 record = []
 if len(user_input) > 0:
-    with st.spinner("请稍后，chatgpt🤖正在准备答案"):
+    with st.spinner("请稍后，davinci-003🤖正在准备答案"):
         st.info(get_response(user_input))
